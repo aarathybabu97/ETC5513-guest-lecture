@@ -49,16 +49,10 @@ background-size: cover
 
 
 ---
-class: inverse center middle
-
-# Little bit about myself
-
-
----
 class: inverse 
 
 
-## Before 
+## Little bit about myself
 
 .left-column[
 
@@ -81,11 +75,17 @@ Master of Business Analytics<br/>
 Monash University <br/>
 Melbourne, Australia
 ]
+---
+class: inverse bold-last-item
+
+background-image: url("images/xkcd.png")
+background-size: contain
+
 
 ---
 class: inverse 
 
-## After 
+## Little bit about myself 
 
 
 .left-column[
@@ -104,7 +104,7 @@ The Telethon Kids Institute is based within the Perth Children’s Hospital, and
 ---
 class: inverse 
 
-## After 
+## Little bit about myself  
 
 
 .left-column[
@@ -121,8 +121,17 @@ class: inverse
 
 - Part of the Geospatial Health and Development Team with **Nick Golding**, **Nicholas Tierney**, **Gerry Ryan**, **August Hao** and **David Duncan**. 
 
+]
+
+--
+
+.right-column[
 - Develop statistical and mathematical analyses of COVID-19 transmission in Australia. 
 
+]
+
+--
+.right-column[
 - Provide support in developing team's research software. 
 
 
@@ -145,8 +154,10 @@ class: inverse
 
 #### Other key projects of GHD:  
 
- - [Malaria Atlas Project (MAP)](https://www.malariaatlas.org/) :  15-year project funded by the Bill and Melinda Gates Foundation that tracks the global distribution of malaria, one of the largest contributors to child mortality across the world.
-
+- [Malaria Atlas Project (MAP)](https://www.malariaatlas.org/) :  15-year project funded by the Bill and Melinda Gates Foundation that tracks the global distribution of malaria, one of the largest contributors to child mortality across the world.
+]
+--
+.right-column[
     
 -  [DETECT Schools project](https://www.telethonkids.org.au/projects/detect-schools/) : Focuses on improving our understanding of the risk and impact of COVID-19 on school communities across Western Australia. 
 
@@ -206,11 +217,19 @@ class: inverse
 
 - Start with a good bio & intro : a nice picture / something about what you do & like.
 
-- You could set up a profile readme! Here's the [link](https://dev.to/github/how-to-create-a-github-profile-readme-jha) to do that.
+--
+
+- You could set up a profile readme! Here's the [link](https://aboutmonica.com/blog/how-to-create-a-github-profile-readme/) to do that.
+
+--
 
 - Pin your most relevant projects & commits you are proud of. 
 
-- Set up your projects with a good README and description with the project's purpose
+--
+
+- Set up your projects with a good README and description with the project's purpose. 
+
+--
 
 - Invite others for collaboration. 
 
