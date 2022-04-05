@@ -1,0 +1,221 @@
+---
+title: "Why and How I use Git & GitHub"
+subtitle: ""  
+author: 
+  - "Aarathy Babu"
+date: '`r Sys.Date()`'
+output:
+  xaringan::moon_reader:
+    seal: false
+    css: theme.css
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+---
+
+```{r setup, include=FALSE}
+library(fontawesome)
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  hiline = TRUE
+)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = "#006DAE",
+  secondary_color = "#EBEBFB",
+  inverse_header_color = "#006DAE"
+)
+```
+
+
+
+background-image: url("images/titlepage.png")
+background-size: cover
+
+
+
+
+
+---
+class: inverse center middle
+
+# Little bit about myself
+
+
+---
+class: inverse 
+
+
+## Before 
+
+.left-column[
+
+[**Education**](#3)
+
+[Telethon Kids Institute](#4)
+
+]
+
+.right-column[
+
+#### Undergraduate degree
+B.Tech in Electrical and Electronics Engineering<br/>
+Amrita School of Engineering <br/>
+Kerala,India
+
+
+#### Post graduate degree
+Master of Business Analytics<br/>
+Monash University <br/>
+Melbourne, Australia
+]
+
+---
+class: inverse 
+
+## After 
+
+
+.left-column[
+
+[Education](#3)
+
+[**Telethon Kids Institute**](#4)
+]
+
+.right-column[
+
+#### About Telethon Kids Institute
+The Telethon Kids Institute is based within the Perth Children’s Hospital, and is one of the largest medical research institutes in Australia dedicated to improve the health and well being of children.<br/>
+
+]
+---
+class: inverse 
+
+## After 
+
+
+.left-column[
+
+[Education](#3)
+
+[**Telethon Kids Institute**](#4)
+]
+
+.right-column[
+
+
+#### Infectious Disease Modeller
+
+- Part of the Geospatial Health and Development Team with **Nick Golding**, **Nicholas Tierney**, **Gerry Ryan**, **August Hao** and **David Duncan**. 
+
+- Develop statistical and mathematical analyses of COVID-19 transmission in Australia. 
+
+- Provide support in developing team's research software. 
+
+
+]
+---
+class: inverse 
+
+## Geospatial Health and Development Team
+
+
+.left-column[
+
+[Education](#3)
+
+[**Telethon Kids Institute**](#4)
+]
+
+.right-column[
+
+
+#### Other key projects of GHD:  
+
+ - [Malaria Atlas Project (MAP)](https://www.malariaatlas.org/) :  15-year project funded by the Bill and Melinda Gates Foundation that tracks the global distribution of malaria, one of the largest contributors to child mortality across the world.
+
+    
+-  [DETECT Schools project](https://www.telethonkids.org.au/projects/detect-schools/) : Focuses on improving our understanding of the risk and impact of COVID-19 on school communities across Western Australia. 
+
+
+]
+
+---
+class: inverse bold-last-item
+
+
+## Why do I use Git & GitHub?  
+
+I use GitHub as the cloud-based host to upload and manage Git repositories I work on 
+
+--
+
+`r emo::ji("research")`  **Collaborative work**
+    
+  - Share, co-edit codes and files with other researchers.
+
+<br>
+--
+
+`r fontawesome::fa("code")`  **Make records of code and data as I work on them**  
+
+  - Tracks the changes to the code/project I have made.
+  
+---
+class: inverse bold-last-item
+
+
+  
+`r fontawesome::fa("github")` **Track work on GitHub using Issues**
+
+  - Plan our work,assign tasks and track progress via cross reference through pull requests or commits. 
+    
+  - Report bugs in code / suggest improvements. 
+    
+  - Share code outputs/ reproducible example code using **reprex R package** in GitHub issue conversations.
+    
+--
+
+`r fontawesome::fa("code-branch")`  **Contribute to existing projects/ R package development** 
+
+    
+  - Clone/Fork repos to add my contribution in branches.
+    
+  - Create pull requests and assign reviewer
+  
+
+---
+class: inverse 
+
+## How GitHub could help in your job search
+
+**Having a GitHub profile with all your projects to showcase will help you! Recruiters could ask you to show them a piece of code you've written.**
+
+- Start with a good bio & intro : a nice picture / something about what you do & like.
+
+- You could set up a profile readme! Here's the [link](https://dev.to/github/how-to-create-a-github-profile-readme-jha) to do that.
+
+- Pin your most relevant projects & commits you are proud of. 
+
+- Set up your projects with a good README and description with the project's purpose
+
+- Invite others for collaboration. 
+
+
+---
+class: inverse center middle
+
+# Thank you!
